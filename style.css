@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+}
+
+header h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+header h1{
+    text-align: center;
+    color: tomato;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
